@@ -1,19 +1,17 @@
 ---
-title: 'When to Use Static Generation v.s. Server-side Rendering'
-date: '2020-01-02'
+title: "A brief start"
+date: "2023-07-29"
 ---
 
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
+The first post. After following the tutorial for a Next.JS blog, it's up and running and deployed on Vercel.
 
-You can use Static Generation for many types of pages, including:
+Things I learnt:
 
-- Marketing pages
-- Blog posts
-- E-commerce product listings
-- Help and documentation
+- NextJS's pre-rendering and static generation handling is very easy to use.
+- Deployment to Vercel
 
-You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
+Challenges:
 
-On the other hand, Static Generation is **not** a good idea if you cannot pre-render a page ahead of a user's request. Maybe your page shows frequently updated data, and the page content changes on every request.
+- Updating the image on the blog posts. The image file name is stored under a separate section of the layout.js file. I need to explore this more as I am still unsure how the file chooses each image for the index or blog posts. I will add an image here of the section of code I think is commanding this.
 
-In that case, you can use **Server-Side Rendering**. It will be slower, but the pre-rendered page will always be up-to-date. Or you can skip pre-rendering and use client-side JavaScript to populate data.
+- Changes were needed for github credentials as I was using a separate account. I had to use this page "https://stackoverflow.com/questions/15381198/remove-credentials-from-git" to clear credentials held in the windows password manager.
