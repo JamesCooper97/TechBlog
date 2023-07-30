@@ -11,7 +11,11 @@ I didn't like my previous solution and it was bugging me that I couldn't include
 
 <Link href="/"><Image priority src="/images/embedded-html.JPG" height={108} width={108} alt=""/></Link>
 
-This image is stored on my local.
+This image is now stored on my local, moving away from hosting in google drive.
+
+<Link href="/"><Image priority src="/images/posts-rehype-raw.JPG" height={108} width={108} alt=""/></Link>
+
+You can see the updated posts function above using the rehype raw and remark rehype. Details of usage can be found on [this] webpage.
 
 Challenges I faced:
 
@@ -26,3 +30,4 @@ To Learn:
 -
 
 [here]: https://github.com/remarkjs/remark-rehype/issues/8#issuecomment-309298870
+[this]: https://unifiedjs.com/learn/recipe/remark-html/#how-to-properly-support-html-inside-markdown
