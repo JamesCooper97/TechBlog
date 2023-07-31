@@ -1,6 +1,6 @@
 ---
 title: "A brief start"
-date: "2023-07-29"
+date: "2023-07-28"
 ---
 
 The first post. After following the tutorial for a Next.JS blog, it's up and running and deployed on Vercel.

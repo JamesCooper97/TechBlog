@@ -25,7 +25,7 @@ export default function Home({ allPostsData }) {
         <p>
           Hi, and welcome to a bit about my ongoing projects in tech. I hope to
           use this blog to update various progress of projects, including
-          information of updating this site
+          information about updating this site, my first project!
         </p>
         <p>
           Below you can find recent blog posts about the progress of my projects

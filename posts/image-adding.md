@@ -1,6 +1,6 @@
 ---
 title: "Adding images"
-date: "2023-07-30"
+date: "2023-07-29"
 ---
 
 I wanted to make the blog a bit more visual, so that I can showcase current progress better. After scouring the web I found a solution that meant I could add images of my progress to the current markdown files being created. Images are hosted on google drive and used a simple view url to access them.

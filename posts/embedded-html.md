@@ -3,7 +3,7 @@ title: "Embedded HTML in Markdown File"
 date: "2023-07-30"
 ---
 
-Double post for the day!
+Post for the day!
 
 <h2>HELLO</h2>
 
@@ -25,9 +25,9 @@ I learnt:
 
 - How to digest a markdown file with embedded HTML
 
-To Learn:
+What's next:
 
--
+- Data Fetching in NextJS!
 
 [here]: https://github.com/remarkjs/remark-rehype/issues/8#issuecomment-309298870
 [this]: https://unifiedjs.com/learn/recipe/remark-html/#how-to-properly-support-html-inside-markdown
