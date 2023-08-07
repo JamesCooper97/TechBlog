@@ -11,4 +11,4 @@ NextJS has documentation on using app routers and page routers found [here]. I'l
 
 I have previous experience hosting servers on Amazons EC2 and hope to explore the use of AWS's again.
 
-[here] https://nextjs.org/docs
+[here]: https://nextjs.org/docs
