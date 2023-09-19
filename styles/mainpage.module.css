@@ -1,0 +1,30 @@
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexchild1{
+    width:200px;
+    color:blue;
+}
+
+.flexchild2{
+    width:200px;
+}
+
+.blogPostContainer {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+}
+
+.profileContainer{
+    flex-grow: 1;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flexcontainer {
+      flex-direction: column;
+    }
+}
