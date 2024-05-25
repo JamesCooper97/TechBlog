@@ -31,6 +31,14 @@ export default function Home({ allPostsData }) {
           Below you can find recent blog posts about the progress of my projects
         </p>
       </section>
+      <section className={utilStyles.headingMd}>
+          <h>
+            Project Links
+          </h>
+          <p>
+            <ul>https://travel-app-xi-jade.vercel.app/</ul>
+          </p>
+      </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>

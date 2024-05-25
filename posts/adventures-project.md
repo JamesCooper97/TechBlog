@@ -11,3 +11,7 @@ Once the map was initiated I worked on adding a header and a modal. The modal re
 - Change modal state via map click, research into javascript functions
 - Add backend API with adventure data
 
+You cab find the website here:
+
+https://travel-app-xi-jade.vercel.app/
+
