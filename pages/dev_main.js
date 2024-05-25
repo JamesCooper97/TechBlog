@@ -3,19 +3,30 @@ import Layout2 from "../components/layout2";
 import mainStyles from "../styles/mainpage.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Profile from "../components/profile";
+import Postcard from "../components/postcard";
 
-export default function Home() {
+import { getSortedPostsData } from "../lib/posts";
+
+
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData();
+  return {
+    props: {
+      allPostsData,
+    },
+  };
+}
+
+export default function Main({allPostsData}) {
   return (
     <Layout2>
       <section className={mainStyles.flexcontainer}>
         <section className={mainStyles.blogPostContainer}>
-                <section className={mainStyles.flexchild1}>
-                    Flex Column 1
-                </section>
-                <section className={mainStyles.flexchild2}>
-                    Flex Column 2
-                </section>
+                {allPostsData.map(({ id, date, title }) => (
+                <Postcard id date title/>
+          ))}
             </section>
+              
             <Profile className={mainStyles.profileContainer}/>
         </section>
     </Layout2>

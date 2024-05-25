@@ -1,16 +1,20 @@
 import Head from "next/head";
 import styles from "./layout2.module.css";
+import Navbar from "./navbar";
 
 const name = "James Cooper";
-export const siteTitle = "Next.js Sample Website";
+export const siteTitle = "Blog";
 
 export default function Layout2({ children, home }) {
   return (
-    <div className={styles.container}>
+    <div>
+      <Navbar />
       <Head>
         
       </Head>
-      <main>{children}</main>
+      <div className={styles.container}>
+        <main>{children}</main>
+      </div>
     </div>
   );
 }

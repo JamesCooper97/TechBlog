@@ -4,22 +4,23 @@
 }
 
 .flexchild1{
-    width:200px;
+    width:30%;
     color:blue;
 }
 
 .flexchild2{
-    width:200px;
+    width:30%;
 }
 
 .blogPostContainer {
     display: flex;
     flex-direction: row;
     flex-grow: 2;
+    flex-wrap: wrap;
 }
 
 .profileContainer{
-    flex-grow: 1;
+    flex-grow: 2;
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
